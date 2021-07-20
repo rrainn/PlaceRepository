@@ -1,7 +1,7 @@
 name: Incorrect Location Data
 description: Incorrect Location Data
-title: "[INVALID] [LOCATION] {{BRAND NAME}}"
-labels: [Invalid, Location]
+title: "[INCORRECT] [LOCATION] {{BRAND NAME}}"
+labels: [Incorrect, Location]
 body:
 - type: input
   attributes:
