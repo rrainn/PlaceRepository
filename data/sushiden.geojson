@@ -1,0 +1,32 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-104.98078,
+					39.68957
+				]
+			},
+			"properties": {
+				"ref": "placerepository_sushiden:1",
+				"addr:housenumber": "1487",
+				"addr:street": "South Pearl Street",
+				"addr:city": "Denver",
+				"addr:state": "CO",
+				"addr:postcode": "80210",
+				"phone": "+1-303-777-0826",
+				"website": "https://www.sushiden.net",
+				"name": "Sushi Den",
+				"opening_hours": "Su-Th 16:30-21:00; Fr-Sa 16:30-22:00",
+				"amenity": "restaurant",
+				"cuisine": "sushi",
+				"twitter": "SushiDenDenver",
+				"facebook": "https://www.facebook.com/sushiden",
+				"instagram": "https://instagram.com/SushiDenDenver"
+			}
+		}
+	]
+}

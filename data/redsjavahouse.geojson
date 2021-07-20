@@ -1,0 +1,32 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.38733,
+					37.78722
+				]
+			},
+			"properties": {
+				"ref": "placerepository_redsjavahouse:1",
+				"addr:housenumber": "Pier 30",
+				"addr:street": "The Embarcadero",
+				"addr:city": "San Francisco",
+				"addr:state": "CA",
+				"addr:postcode": "94105",
+				"name": "Red's Java House",
+				"phone": "+1-415-777-5626",
+				"email": "questions@redsjavahouse.com",
+				"contact:website": "http://www.redsjavahouse.com/#!/contact-us",
+				"website": "http://www.redsjavahouse.com/#!/home",
+				"opening_hours": "Mo-Fr 07:00-18:00; Sa-Su 09:00-18:00",
+				"amenity": "restaurant",
+				"twitter": "RedsJavaHouse",
+				"facebook": "https://facebook.com/Reds-Java-House-23817069244/"
+			}
+		}
+	]
+}

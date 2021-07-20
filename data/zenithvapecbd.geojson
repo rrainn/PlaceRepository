@@ -1,0 +1,101 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-110.94242078989473,
+					32.161335742546314
+				]
+			},
+			"properties": {
+				"ref": "placerepository_zenithvapecbd:1",
+				"addr:housenumber": "1996",
+				"addr:street": "East Irvington Road",
+				"addr:city": "Tucson",
+				"addr:state": "AZ",
+				"addr:postcode": "85714",
+				"phone": "+1-520-332-9299",
+				"brand:website": "https://zenithvapecbd.com",
+				"name": "Zenith Vape & CBD",
+				"min_age": "21",
+				"opening_hours": "Mo-Sa 10:00-20:00; Su 12:00-18:00",
+				"shop": "e-cigarette"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-111.00179803961979,
+					32.1786060838069
+				]
+			},
+			"properties": {
+				"ref": "placerepository_zenithvapecbd:2",
+				"addr:housenumber": "1710",
+				"addr:street": "West Ajo Way",
+				"addr:city": "Tucson",
+				"addr:state": "AZ",
+				"addr:postcode": "85714",
+				"phone": "+1-520-789-4657",
+				"brand:website": "https://zenithvapecbd.com",
+				"name": "Zenith Vape & CBD",
+				"min_age": "21",
+				"opening_hours": "Mo-Su 11:00-19:00",
+				"shop": "e-cigarette"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-110.97733864259807,
+					32.13472356713265
+				]
+			},
+			"properties": {
+				"ref": "placerepository_zenithvapecbd:3",
+				"addr:housenumber": "6445",
+				"addr:street": "South 12th Avenue",
+				"addr:city": "Tucson",
+				"addr:state": "AZ",
+				"addr:postcode": "85706",
+				"phone": "+1-520-861-6292",
+				"brand:website": "https://zenithvapecbd.com",
+				"name": "Zenith Vape & CBD",
+				"min_age": "21",
+				"opening_hours": "Mo-Su 11:00-19:00",
+				"shop": "e-cigarette"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-110.90299445565057,
+					32.20613259238735
+				]
+			},
+			"properties": {
+				"ref": "placerepository_zenithvapecbd:4",
+				"addr:housenumber": "4148",
+				"addr:street": "East 22nd Street",
+				"addr:city": "Tucson",
+				"addr:state": "AZ",
+				"addr:postcode": "85711",
+				"phone": "+1-520-955-9169",
+				"brand:website": "https://zenithvapecbd.com",
+				"name": "Zenith Vape & CBD",
+				"min_age": "21",
+				"opening_hours": "Mo-Su 11:00-19:00",
+				"shop": "e-cigarette"
+			}
+		}
+	]
+}

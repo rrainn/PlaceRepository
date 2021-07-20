@@ -1,0 +1,32 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-104.98070,
+					39.68926
+				]
+			},
+			"properties": {
+				"ref": "placerepository_ototo:1",
+				"addr:housenumber": "1501",
+				"addr:street": "South Pearl Street",
+				"addr:city": "Denver",
+				"addr:state": "CO",
+				"addr:postcode": "80210",
+				"phone": "+1-303-733-2503",
+				"website": "https://ototoden.com",
+				"name": "Ototo",
+				"opening_hours:covid19": "closed",
+				"amenity": "restaurant",
+				"cuisine": "japanese",
+				"twitter": "ototoden",
+				"facebook": "https://www.facebook.com/ototoden",
+				"instagram": "https://www.instagram.com/ototoden/"
+			}
+		}
+	]
+}

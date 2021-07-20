@@ -1,0 +1,78 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-104.99733,
+					39.75497
+				]
+			},
+			"properties": {
+				"ref": "placerepository_chophouse:1",
+				"addr:housenumber": "1735",
+				"addr:street": "19th Street",
+				"addr:unit": "100",
+				"addr:unitname": "Suite",
+				"addr:city": "Denver",
+				"addr:state": "CO",
+				"addr:postcode": "80202",
+				"name": "Denver ChopHouse & Brewery",
+				"phone": "+1-303-296-0800",
+				"website": "https://www.denverchophouse.com",
+				"brand:website": "https://www.chophouse.com",
+				"opening_hours": "Mo-Su 11:00-22:00",
+				"amenity": "restaurant",
+				"microbrewery": "yes",
+				"instagram": "https://instagram.com/denverchophouse"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.4481255,
+					38.9528261
+				]
+			},
+			"properties": {
+				"ref": "placerepository_chophouse:2",
+				"addr:housenumber": "509",
+				"addr:street": "7th Street",
+				"addr:city": "Washington",
+				"addr:state": "DC",
+				"addr:postcode": "20004",
+				"name": "District ChopHouse",
+				"phone": "+1-202-347-3434",
+				"website": "https://districtchophouse.com",
+				"brand:website": "https://www.chophouse.com",
+				"opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+				"amenity": "restaurant",
+				"microbrewery": "yes"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-104.6741109,
+					39.8535027
+				]
+			},
+			"properties": {
+				"ref": "placerepository_chophouse:3",
+				"phone": "+1-303-645-3757",
+				"name": "Denver ChopHouse",
+				"website": "https://www.flydenver.com/enjoy_relax/dine/denver-chophouse",
+				"contact:website": "https://www.chophouse.com/airport-contact",
+				"brand:website": "https://www.chophouse.com",
+				"opening_hours": "Mo-Su 08:00-20:00",
+				"amenity": "restaurant"
+			}
+		}
+	]
+}
