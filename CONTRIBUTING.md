@@ -5,7 +5,7 @@ Thank you for considering contributing to PlaceRepository! Your contributions he
 ## Guidelines
 
 - Places that have data hosted elsewhere should not be added to PlaceRepository.
-- All property keys should conform to frequently used OpenStreetMap tags.
+- All property keys should attempt to conform to frequently used OpenStreetMap tags.
 - `ref` property keys should exist on every feature. The values of `ref` should begin with `placerepository_{{BRAND_NAME}}:` followed by a unique number, and the `{{BRAND_NAME}}` text should be replaced with the file name.
 
 ## Issues
