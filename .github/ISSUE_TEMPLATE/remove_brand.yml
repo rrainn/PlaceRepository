@@ -1,0 +1,32 @@
+name: Remove Brand
+description: Remove Brand
+title: "[REMOVE] [BRAND] {{BRAND NAME}}"
+labels: [Remove, Brand]
+body:
+- type: input
+    attributes:
+      label: Name
+      description: What is this brands name?
+      placeholder: ex. Best Buy
+    validations:
+      required: true
+- type: textarea
+  attributes:
+    label: Why should this brand be removed?
+    description: Explaination for why this brand should be removed.
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Do you work for or own this brand?
+    description: Having a contact at this brand is helpful to ensure this data is properly maintained. However this is not required.
+    options:
+    - label: I work for or own this brand.
+      required: false
+- type: checkboxes
+  attributes:
+    label: Have you read the `CONTRIBUTING.md` file?
+    description: Please read the `CONTRIBUTING.md` file so you understand the guidelines for this project.
+    options:
+    - label: I have read the `CONTRIBUTING.md` file.
+      required: true

@@ -1,0 +1,45 @@
+name: Incorrect Location Data
+description: Incorrect Location Data
+title: "[INVALID] [LOCATION] {{BRAND NAME}}"
+labels: [Invalid, Location]
+body:
+- type: input
+    attributes:
+      label: Name
+      description: What is this brands name?
+      placeholder: ex. Best Buy
+    validations:
+      required: true
+- type: input
+    attributes:
+      label: Location Reference
+      description: What is this locations `ref` identifier?
+      placeholder: ex. `placerepository_bestbuy:1234`
+    validations:
+      required: true
+- type: input
+  attributes:
+    label: Incorrect attribute
+    description: Which attribute is incorrect?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Correct attribute value
+    description: Do you know what the correct attribute value should be?
+  validations:
+    required: false
+- type: checkboxes
+  attributes:
+    label: Do you work for or own this brand?
+    description: Having a contact at this brand is helpful to ensure this data is properly maintained. However this is not required.
+    options:
+    - label: I work for or own this brand.
+      required: false
+- type: checkboxes
+  attributes:
+    label: Have you read the `CONTRIBUTING.md` file?
+    description: Please read the `CONTRIBUTING.md` file so you understand the guidelines for this project.
+    options:
+    - label: I have read the `CONTRIBUTING.md` file.
+      required: true

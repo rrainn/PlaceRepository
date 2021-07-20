@@ -1,0 +1,39 @@
+name: Remove Location
+description: Remove Location
+title: "[REMOVE] [LOCATION] {{BRAND NAME}}"
+labels: [Remove, Location]
+body:
+- type: input
+    attributes:
+      label: Name
+      description: What is this brands name?
+      placeholder: ex. Best Buy
+    validations:
+      required: true
+- type: input
+    attributes:
+      label: Location Reference
+      description: What is this locations `ref` identifier?
+      placeholder: ex. `placerepository_bestbuy:1234`
+    validations:
+      required: true
+- type: textarea
+  attributes:
+    label: Why should this location be removed?
+    description: Explaination for why this location should be removed.
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Do you work for or own this brand?
+    description: Having a contact at this brand is helpful to ensure this data is properly maintained. However this is not required.
+    options:
+    - label: I work for or own this brand.
+      required: false
+- type: checkboxes
+  attributes:
+    label: Have you read the `CONTRIBUTING.md` file?
+    description: Please read the `CONTRIBUTING.md` file so you understand the guidelines for this project.
+    options:
+    - label: I have read the `CONTRIBUTING.md` file.
+      required: true

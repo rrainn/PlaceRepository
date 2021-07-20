@@ -1,0 +1,62 @@
+name: Add Brand
+description: Add Brand
+title: "[ADD] [BRAND] {{BRAND NAME}}"
+labels: [Add, Brand]
+body:
+- type: checkboxes
+  attributes:
+    label: Does this brand already exist?
+    description: Please search the `/data` directory to ensure this brand does not already exist.
+    options:
+    - label: I have searched the existing brands and ensure that this brand does not already exist.
+      required: true
+- type: input
+    attributes:
+      label: Name
+      description: What is this brands name?
+      placeholder: ex. Best Buy
+    validations:
+      required: true
+- type: input
+    attributes:
+      label: Website
+      description: Does this brand have a website?
+      placeholder: ex. https://bestbuy.com
+    validations:
+      required: false
+- type: textarea
+  attributes:
+    label: Locations
+    description: Locations for this brand
+    value: |
+      - Name: Location 1 Name
+      - Address: Location 1 Address
+      - Website: Location 1 Website
+      - Phone Number: Location 1 Phone Number
+      - Open Hours: Location 1 Open Hours
+      - Email: Location 1 Email
+      - Coordinates: Location 1 Coordinates
+      ---
+      - Name: Location 2 Name
+      - Address: Location 2 Address
+      - Website: Location 2 Website
+      - Phone Number: Location 2 Phone Number
+      - Open Hours: Location 2 Open Hours
+      - Email: Location 2 Email
+      - Coordinates: Location 2 Coordinates
+  validations:
+    required: false
+- type: checkboxes
+  attributes:
+    label: Do you work for or own this brand?
+    description: Having a contact at this brand is helpful to ensure this data is properly maintained. However this is not required.
+    options:
+    - label: I work for or own this brand.
+      required: false
+- type: checkboxes
+  attributes:
+    label: Have you read the `CONTRIBUTING.md` file?
+    description: Please read the `CONTRIBUTING.md` file so you understand the guidelines for this project.
+    options:
+    - label: I have read the `CONTRIBUTING.md` file.
+      required: true

@@ -1,0 +1,75 @@
+name: Add Location
+description: Add Location
+title: "[ADD] [LOCATION] {{BRAND NAME}}"
+labels: [Add, Location]
+body:
+- type: checkboxes
+  attributes:
+    label: Does this location already exist?
+    description: Please search the `/data` directory for the relevant brand to ensure this location does not already exist.
+    options:
+    - label: I have searched the existing brand file and ensured that this location does not already exist.
+      required: true
+- type: input
+    attributes:
+      label: Name
+      description: What is this brands name?
+      placeholder: ex. Best Buy
+    validations:
+      required: true
+- type: input
+    attributes:
+      label: Address
+      description: What is this brands address?
+      placeholder: ex. 123 Milky Way Drive Unit 123, New York, NY 10001, USA
+    validations:
+      required: true
+- type: input
+    attributes:
+      label: Website
+      description: Does this location have a website?
+      placeholder: ex. https://bestbuy.com
+    validations:
+      required: false
+- type: input
+    attributes:
+      label: Phone Number
+      description: Does this location have a phone number?
+      placeholder: ex. +1-123-456-7890
+    validations:
+      required: false
+- type: input
+    attributes:
+      label: Open Hours
+      description: What hours is this location open?
+      placeholder: ex. Monday-Friday 9:00am-5:00pm, Saturday 10:00am-4:00pm, Sunday Closed
+    validations:
+      required: true
+- type: input
+    attributes:
+      label: Email
+      description: Does this location have an email address?
+      placeholder: ex. location123@brand.invalid
+    validations:
+      required: false
+- type: input
+    attributes:
+      label: Coordinates
+      description: Do you know what the coordinates are for this location?
+      placeholder: ex. 37.7876, -122.4072
+    validations:
+      required: false
+- type: checkboxes
+  attributes:
+    label: Do you work for or own this brand?
+    description: Having a contact at this brand is helpful to ensure this data is properly maintained. However this is not required.
+    options:
+    - label: I work for or own this brand.
+      required: false
+- type: checkboxes
+  attributes:
+    label: Have you read the `CONTRIBUTING.md` file?
+    description: Please read the `CONTRIBUTING.md` file so you understand the guidelines for this project.
+    options:
+    - label: I have read the `CONTRIBUTING.md` file.
+      required: true
