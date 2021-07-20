@@ -4,12 +4,12 @@ title: "[REMOVE] [BRAND] {{BRAND NAME}}"
 labels: [Remove, Brand]
 body:
 - type: input
-    attributes:
-      label: Name
-      description: What is this brands name?
-      placeholder: ex. Best Buy
-    validations:
-      required: true
+  attributes:
+    label: Name
+    description: What is this brands name?
+    placeholder: ex. Best Buy
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Why should this brand be removed?

@@ -11,19 +11,19 @@ body:
     - label: I have searched the existing brands and ensure that this brand does not already exist.
       required: true
 - type: input
-    attributes:
-      label: Name
-      description: What is this brands name?
-      placeholder: ex. Best Buy
-    validations:
-      required: true
+  attributes:
+    label: Name
+    description: What is this brands name?
+    placeholder: ex. Best Buy
+  validations:
+    required: true
 - type: input
-    attributes:
-      label: Website
-      description: Does this brand have a website?
-      placeholder: ex. https://bestbuy.com
-    validations:
-      required: false
+  attributes:
+    label: Website
+    description: Does this brand have a website?
+    placeholder: ex. https://bestbuy.com
+  validations:
+    required: false
 - type: textarea
   attributes:
     label: Locations

@@ -4,19 +4,19 @@ title: "[REMOVE] [LOCATION] {{BRAND NAME}}"
 labels: [Remove, Location]
 body:
 - type: input
-    attributes:
-      label: Name
-      description: What is this brands name?
-      placeholder: ex. Best Buy
-    validations:
-      required: true
+  attributes:
+    label: Name
+    description: What is this brands name?
+    placeholder: ex. Best Buy
+  validations:
+    required: true
 - type: input
-    attributes:
-      label: Location Reference
-      description: What is this locations `ref` identifier?
-      placeholder: ex. `placerepository_bestbuy:1234`
-    validations:
-      required: true
+  attributes:
+    label: Location Reference
+    description: What is this locations `ref` identifier?
+    placeholder: ex. `placerepository_bestbuy:1234`
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Why should this location be removed?
