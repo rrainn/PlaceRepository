@@ -30,30 +30,6 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-111.00179803961979,
-					32.1786060838069
-				]
-			},
-			"properties": {
-				"ref": "placerepository_zenithvapecbd:2",
-				"addr:housenumber": "1710",
-				"addr:street": "West Ajo Way",
-				"addr:city": "Tucson",
-				"addr:state": "AZ",
-				"addr:postcode": "85714",
-				"phone": "+1-520-789-4657",
-				"brand:website": "https://zenithvapecbd.com",
-				"name": "Zenith Vape & CBD",
-				"min_age": "21",
-				"opening_hours": "Mo-Su 11:00-19:00",
-				"shop": "e-cigarette"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
 					-110.97733864259807,
 					32.13472356713265
 				]
