@@ -72,6 +72,31 @@
 				"opening_hours": "Mo-Su 11:00-19:00",
 				"shop": "e-cigarette"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-110.95462,
+					32.18684
+				]
+			},
+			"properties": {
+				"ref": "placerepository_zenithvapecbd:5",
+				"addr:housenumber": "1070",
+				"addr:street": "East Tucson Marketplace Boulevard",
+				"addr:city": "Tucson",
+				"addr:state": "AZ",
+				"addr:postcode": "85713",
+				"addr:unit": "104",
+				"phone": "+1-520-789-4657",
+				"brand:website": "https://zenithvapecbd.com",
+				"name": "Zenith Vape & CBD",
+				"min_age": "21",
+				"opening_hours": "Mo-Su 11:00-19:00",
+				"shop": "e-cigarette"
+			}
 		}
 	]
 }
